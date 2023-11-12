@@ -1,21 +1,20 @@
 {
     "name": "markup-practice-1",
+    "version": "1.0.0",
     "description": "",
     "source": "src/index.html",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
-        "start": "parcel src/index.html",
-        "build": "parcel build src/index.html"
+        "start": "parcel",
+        "build": "parcel build"
     },
+    "keywords": [],
+    "author": "Vladyslav Kupchuk <kupchuk.vlad@gmail.com>",
+    "license": "ISC",
     "devDependencies": {
         "@parcel/transformer-sass": "^2.10.2",
         "parcel": "^2.10.2",
         "parcel-bundler": "^1.12.5",
         "posthtml-include": "^1.7.4"
-    },
-    "author": "",
-    "license": "ISC",
-    "version": "1.0.0",
-    "main": "index.js",
-    "keywords": []
+    }
 }
