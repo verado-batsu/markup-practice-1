@@ -1,2 +1,7 @@
-@import "./reset";
-@import "./base";
+@import "./base/reset";
+@import "./base/container";
+
+// ! HEADER
+@import "./layout/header";
+// ! MAIN
+// ! FOOTER
