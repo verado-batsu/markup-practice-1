@@ -46,7 +46,8 @@
 	font-size: 14px;
 	line-height: calc(22.5px / 14px);
 
-	&:hover {
+	&:hover, 
+	&:focus {
 		background-color: #000;
 	}
 }
