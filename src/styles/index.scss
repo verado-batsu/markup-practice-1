@@ -2,7 +2,9 @@
 @import "./base/reset";
 @import "./base/container";
 
-// ! HEADER
+//  HEADER
 @import "./layout/header";
-// ! MAIN
-// ! FOOTER
+//  MAIN
+@import "./layout/main/hero";
+@import "./layout/main/explain-section";
+//  FOOTER
